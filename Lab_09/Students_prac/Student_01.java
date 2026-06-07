@@ -1,6 +1,6 @@
 package Lab_09.Students_prac;
 
-interface Student_01 {
+interface Student1 {
     void name();
     int rollNo();
 }
@@ -18,7 +18,7 @@ class XY implements Student1 {
 }
 
 
-public class Last_Week {
+public class Student_01 {
     public static void main(String[] args) {
         Student1 z = new XY();
         z.name();
