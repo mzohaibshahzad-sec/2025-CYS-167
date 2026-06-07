@@ -3,13 +3,13 @@ abstract class Students {
     abstract void name();
     abstract int rollNo();
     void display() {
-        System. out.println("Student Information");
+        System.out.println("Student Information");
     }
 }
-class ABD extends Students {
+class Detail extends Students {
     @Override
     void name() {
-        System. out.println("Muhammad Zohaib Shahzad");
+        System.out.println("Muhammad Zohaib Shahzad");
     }
     @Override
     int rollNo() {
@@ -17,7 +17,7 @@ class ABD extends Students {
 }
 public class Abstract {
     public static void main(String[] args) {
-        Students stdDetails = new ABD();
+        Students stdDetails = new Detail();
         stdDetails.name();
         System.out.println(stdDetails.rollNo());
     }
