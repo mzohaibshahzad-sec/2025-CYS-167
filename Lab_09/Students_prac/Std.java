@@ -1,4 +1,4 @@
-package Lab_09;
+package Lab_09.Students_prac;
 interface Student {
     void name();
     int rollNo();
@@ -13,10 +13,10 @@ class Record implements Student {
         return 167;
     }
 }
-abstract class Teachr {
+abstract class Teacher {
     abstract void subject();
 }
-class Rec_01 extends Teachr implements Student {
+class Rec_01 extends Teacher implements Student {
     @Override
     public void subject() {
         System. out.println("OOP");
