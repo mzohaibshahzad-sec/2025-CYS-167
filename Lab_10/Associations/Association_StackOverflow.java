@@ -1,6 +1,6 @@
 package Lab_10;
 
-public class Association {
+public class Association_StackOverflow {
     public static void main(String[] args) {
         Owner onr = new Owner();
         dog d = new dog();
